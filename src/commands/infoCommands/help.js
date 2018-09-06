@@ -46,6 +46,7 @@ module.exports = new GenericCommand(
       await addCD()
       return {
         fields: [
+          { 'name': 'Kromatic#0420 buys the battlepass', 'value': '[Proof](https://i.imgur.com/PxYiZbp.png) [Proof](https://i.imgur.com/U5QKoqe.png)' },
           { 'name': 'Description:', 'value': command.props.description },
           { 'name': 'Usage:', 'value': `\`${command.props.usage.replace('{command}', `${prefix} ${command.props.triggers[0]}`)}\`` },
           { 'name': 'Aliases:', 'value': command.props.triggers.join(', ') }
